@@ -1,0 +1,28 @@
+@media screen and (min-width:320px) and (max-width:800px) {
+    .project{
+        display: flex;
+        flex-direction: column;
+        width:100%
+    }
+
+    .d-flex-col{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+
+    .project-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-det{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
