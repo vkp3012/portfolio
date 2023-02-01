@@ -108,13 +108,16 @@ footer{
 
     .content{
         width: 100%;
-        background-color: black;
-        background-image: none;
+        background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
         align-items: center;
-        height: 374px;
+        height: 315px;
         display: flex;
         justify-content: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
     }
+
+    
 
     .content1{
         font-size: 2px;
@@ -123,7 +126,7 @@ footer{
     }
 
     .content1>p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .d-grid>.btn{
